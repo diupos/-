@@ -1,0 +1,114 @@
+.top{
+	height: 70px;
+	background-color: #4e564c;
+	display: flex;
+	width: 1600px;
+}
+.top_h2{
+	margin-left: 300px;
+	font-weight: bold;
+	font-size: 30px;
+	margin-top: auto;
+	margin-bottom: auto;
+	color: white;
+	letter-spacing: 5px;
+}
+.mid{
+	height: 300px;
+	width: 1600px;
+	display: flex;
+}
+.p_mid{
+	color: black;
+	font-size: 19px;
+	font-weight: bold
+}
+.parent{
+	display: flex;
+	height: 310px;
+}
+.text{
+	width: 900px;
+	height: 300px;
+
+}
+.picture{
+	background-image: url(bn.jpg);
+	background-size: 100% 100%;
+	width: 700px;
+	height: 300px;
+
+}
+.kostil{
+	height: 50px;
+	background-color: white;
+}
+.third{
+	height: 600px;
+	width: 1600px;
+	padding-top: 30px;
+}
+.content{
+	width: 233px;
+	height: 220px;
+	background-color: #e6f4e6;
+	margin-left: 150px;
+	padding-top: 90px;
+}
+.content:hover{
+	transform: scale(1.05);
+	background: rgba(0,0,0,.5);
+}
+.mini{
+	width: 120px;
+	height:200px;
+	margin-top: auto;
+	margin-left: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+.mini_text{
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 15px;
+	letter-spacing: 2px;
+}
+.img_cam{
+	width: 120px;
+	height: 100px;
+	transition: 0.7s;
+}
+
+.button{
+	border-radius: 5px;
+	padding-right: 25px;
+	padding-left: 25px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+
+}
+@font-face{
+	font-family: myfont;
+	src: url(myfont.ttf)
+}
+body{
+	font-family: myfont
+}
+.textdiv{
+	height: 300px;
+	display: flex;
+	width: 1600px;
+	display: flex;
+}
+.textdiv_kid{
+	height: 130px;
+	width: 233px;
+	background-color: #e6f4e6;
+	margin-left: 150px;
+	font-size: 10px;
+	font-weight: bold
+}
+.center{
+	margin-left: 70px;
+
+}
